@@ -16,7 +16,7 @@ void main (void)
            DDRE = 0x00; //PORTE em zero
            DDRC = 0x00; //PORTC em zero
 
-for(;;)
+/*for(;;)
         {
           Delay10KTCYx(150);
 
@@ -44,6 +44,73 @@ for(;;)
 
           PORTC = 0b0000000000;
           }
+*/
 
+for (;;)
+		{
+		
+		//LED protoboard
+		Delay10KTCYx(10);
+		PORTD = 0b00000000;
+		Delay10KTCYx(10);
+		PORTD = 0b00000001;
+		Delay10KTCYx(10);
+		PORTD = 0b00000010;
+		Delay10KTCYx(10);
+		PORTD = 0b00000100;
+		Delay10KTCYx(10);
+		PORTD = 0b00001000;
+		Delay10KTCYx(10);
+		PORTD = 0b00010000;
+		Delay10KTCYx(10);
+		PORTD = 0b00100000;
+		Delay10KTCYx(10);
+		PORTD = 0b01000000;
+		Delay10KTCYx(10);
+		PORTD = 0b10000000;
+		Delay10KTCYx(10);
+		PORTD = 0b01000000;
+		Delay10KTCYx(10);
+		PORTD = 0b00100000;
+		Delay10KTCYx(10);
+		PORTD = 0b00010000;
+		Delay10KTCYx(10);
+		PORTD = 0b00001000;
+		Delay10KTCYx(10);
+		PORTD = 0b00000100;
+		Delay10KTCYx(10);
+		PORTD = 0b00000010;
+		Delay10KTCYx(10);
+		PORTD = 0b00000001;		
+		Delay10KTCYx(10);
+		PORTD = 0b00000000;
+
+
+
+		//LED PIC18f4550
+		Delay10KTCYx(60);
+		PORTE = 0b00000000;
+		Delay10KTCYx(50);
+		PORTE = 0b00000001;
+		Delay10KTCYx(40);
+		PORTE = 0b00000010;
+		Delay10KTCYx(30);
+		PORTE = 0b00000100;
+		Delay10KTCYx(20);
+		PORTE = 0b00000111;
+		Delay10KTCYx(10);
+		PORTE = 0b00000100;
+		Delay10KTCYx(20);
+		PORTE = 0b00000010;
+		Delay10KTCYx(30);
+		PORTE = 0b00000001;				
+		Delay10KTCYx(40);
+		PORTE = 0b00000000;
+		Delay10KTCYx(20);
+		PORTC = 0b11111111;
+		Delay10KTCYx(85);
+		PORTC = 0b00000000;
+		
+		}
 
     }

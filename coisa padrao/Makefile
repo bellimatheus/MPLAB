@@ -1,0 +1,19 @@
+# MPLAB IDE generated this makefile for use with GNU make.
+# Project: if.mcp
+# Date: Mon Oct 02 09:15:14 2023
+
+AS = MPASMWIN.exe
+CC = mcc18.exe
+LD = mplink.exe
+AR = mplib.exe
+RM = rm
+
+if.cof : if.o
+	$(LD) /p18F4550 /l"C:\Program Files (x86)\Microchip\mplabc18\v3.47\lib" "if.o" /u_CRUNTIME /u_DEBUG /o"if.cof" /M"if.map" /W
+
+if.o : if.c ../../../../../../Program\ Files\ (x86)/Microchip/mplabc18/v3.47/h/P18F4550.h
+	$(CC) -p=18F4550 "if.c" -fo="if.o" -D__DEBUG -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+
+clean : 
+	$(RM) "if.o" "if.cof" "if.hex"
+

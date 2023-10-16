@@ -30,7 +30,7 @@ file_000=no
 [OTHER_FILES]
 file_000=no
 [FILE_INFO]
-file_000=TesteCalculadora.c
+file_000=PrimeiroProj.c
 [SUITE_INFO]
 suite_guid={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
 suite_state=
@@ -50,7 +50,7 @@ Post-Build=
 Post-BuildEnabled=1
 [TOOL_LOCKING]
 ToolsAreLocked=1
-T{49D3CA3F-D9A3-4518-9943-226A347E8CC7}=C:\Program Files (x86)\Microchip\mplabc18\v3.47\mpasm\mpasmwin.exe
-T{96C98149-AA1B-4CF9-B967-FAE79CAB663C}=C:\Program Files (x86)\Microchip\mplabc18\v3.47\bin\mplink.exe
+T{49D3CA3F-D9A3-4518-9943-226A347E8CC7}=C:\Users\Aluno.DSN5131112167\Desktop\Projeto LED CRISLEO\PROJETO LED
+T{96C98149-AA1B-4CF9-B967-FAE79CAB663C}=
 T{E56A1C86-9D32-4DF6-8C34-FE0388B1B644}=C:\Program Files (x86)\Microchip\mplabc18\v3.47\bin\mcc18.exe
-T{8DF337E3-D4EF-4566-8F67-3798A3412C47}=C:\Program Files (x86)\Microchip\mplabc18\v3.47\bin\mplib.exe
+T{8DF337E3-D4EF-4566-8F67-3798A3412C47}=
